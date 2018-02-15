@@ -1,3 +1,4 @@
 Name=goneri_t450s
 Mode=switch
 ConnectTo=qnap
+ConnectTo=kimsufi
