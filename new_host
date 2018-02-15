@@ -1,0 +1,26 @@
+#!/bin/bash
+
+if [ -z $1 ]; then
+    echo "Usage: $0 'name'"
+    exit 1
+fi
+
+host=$1
+while true; do
+  new_subnet="192.168.135.$(expr $RANDOM % 240)/32"
+  grep -r ${new_subnet} gone/hosts || break
+done
+
+sed "s,Name=.*,Name=${host}," gone/tinc.conf.sample > gone/tinc.conf
+
+echo "Name=${host}
+Compression=0
+Subnet=${new_subnet}" > gone/hosts/${host}
+
+echo "
+
+
+"|tincd -c gone -K
+
+git add gone/hosts/${host}
+git commit -m "Import of ${host}"
