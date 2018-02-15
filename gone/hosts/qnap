@@ -1,4 +1,5 @@
 Name=qnap
+Address=home.lebouder.net
 Port=657
 Compression=0
 Subnet=192.168.135.67/32
