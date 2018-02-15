@@ -1,0 +1,20 @@
+#!/bin/bash
+set -x
+name=$(sed -n 's,Name=,,p' /etc/tinc/gone/tinc.conf)
+if_ip=$(sed -n 's,Subnet=,,p' /etc/tinc/gone/hosts/${name})
+
+echo ${if_ip}
+
+sudo systemctl restart tinc@gone
+sleep 1
+sudo ip netns add vpn_fr
+sudo ip link set dev gone netns vpn_fr
+sudo ip netns exec vpn_fr ip link set dev gone up
+sudo ip netns exec vpn_fr ip a add ${if_ip} dev gone
+sudo ip netns exec vpn_fr ip r add 192.168.135.0/24 dev gone
+sudo ip netns exec vpn_fr ip r add default via 192.168.135.8 dev gone
+# Not sure why this is mendatory
+sudo ip netns exec vpn_fr ifconfig gone mtu 1300
+sudo ip netns exec vpn_fr sysctl net.ipv6.conf.all.disable_ipv6=1
+sudo bash -c 'echo "nameserver 8.8.8.8" > /etc/resolv.conf'
+sudo -E ip netns exec vpn_fr su $USER -c "google-chrome --user-data-dir=$HOME/.config/chrome-vpn-fr"
