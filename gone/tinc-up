@@ -1,4 +1,5 @@
 #!/bin/sh
+git pull --rebase
 if_ip=$(sed -n 's,Subnet=,,p' /etc/tinc/gone/hosts/${NAME})
 ip address add ${if_ip} dev $INTERFACE
 ip link set $INTERFACE up
