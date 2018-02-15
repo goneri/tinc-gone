@@ -1,0 +1,13 @@
+Name=kimsufi
+Address=kimsufi.lebouder.net
+Compression=0
+Subnet=192.168.135.8/32
+
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEA5Qj4eYNTxX0y5NJ3m/k+O1HipICNsLhHAbiG8GtrOXVuBe8LLtvt
+SHkAu7eYdGR9w/cAmRUMEbK8hpefmyFz1hAfXrcfXk68Pft0lo5KgVDmBSY1b3KO
+ahUhGi6wYiQUncB/d/GuaYiwlmsUuDvxMgmWoAdPZBRKerQQbMEO0vUIYKRJ4+oc
+xO9MtvwSeredWCYETmmxUzSEjWnIzBGubuWuoabltigMNGz5DyDFhVJVqZpk7twx
+uwzAkDAp8HgJIuIo+a6BXakaofgcA9fS4L8LYqcSfGatNN2j/yrC17o2LI8wB4KD
+pUoN6sHxzx9sOlP7MipiA26VFTfeRpLpyQIDAQAB
+-----END RSA PUBLIC KEY-----

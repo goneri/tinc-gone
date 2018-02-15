@@ -1,0 +1,18 @@
+Name=qnap
+Port=657
+Compression=0
+Subnet=192.168.135.67/32
+
+-----BEGIN RSA PUBLIC KEY-----
+MIICCgKCAgEA0JPQoSgRyHD6rWYU+D9UeLpgznm6BwjZ2naoGmP0F6I9YWkuU1Iu
+LFyZ1wcxUoHCPeTlluJYDD9/DZe2AeqKsNkDqpdrTTO7vkwfFesobVgjUdpErWY8
+sZ+QSrjk6G1o/qPdvRkm5kJS0qEawWot9Kj/D8itEuT8V6Afok/PGvfSFOyW2crX
+vBl1kZ4Z1DKFWQ9+LM4JGQQJ281VsPFHMNXe8dIkiznSSxBfZy8FdEA8k7HtwfOM
+d5/pFhATb50jmPwRVZWdnA8bvia1D6hQV3xdist9dh7PjGed4g1cEsJwoLkRifsr
+9E1FaRBusf7IxypRBla+0efrYSADmr6GU4yN/se1RrvaOnOoYkOXb7rqfvn6vZtv
+4XgeiBbOjtB6xOmtJiR5anb9iH/4IJw6HgjvqAtskqNCnT0NzdLnvCTM/eCNqVCU
+2O8pU3n/wI6fAzciR904kElh08pmls8NjOpB+C9054QdXAI7ayU/QbSv2H7q0VE8
+SoajngcQ981eevBeq6Fg9WuDS/azNe+9FhuMj/PW2Tv+zR9vgXDwJa8S2+cUdzsE
+szVg7RiMyoRMK+ecsA9RtPlgKkSbo7mkEiafLc/06rOvYV5QOSSXhRzcwas+EOxk
+m3UOy+9zOl6HxwJq+jKPzdHhgtmC6U5kenHiyNBkOLr4iW0KQP8n3HkCAwEAAQ==
+-----END RSA PUBLIC KEY-----

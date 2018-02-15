@@ -1,0 +1,15 @@
+# This file is managed by Ansible, all changes will be lost.
+Name=syno
+Address=192.168.0.6
+Port=657
+Compression=0
+Subnet=192.168.135.6/32
+
+-----BEGIN RSA PUBLIC KEY-----
+MIIBCgKCAQEAuIGNvoTT6KdkByRaT+HK0kozN3b99inn5NNdKZE6y27KISn609Cy
+IiobqkTTJ0HIIvE4JF856ZTJnB9dttqbR2p6wTbz5pfMzh+16J/WfEyClPcQRXru
+xiUCGYrJdrdQdRK4NfV9aQIvmC3nDWNPcioO191p2cRNi3mxras6QXpopV70F3OF
+kXk+mt8oCyjMExXiv2qzsK0aYcx2HEjBTgBrf8W6GLsBMzAwfVO5LWt42i6M8UGi
+LW0/pjeLZFq01WRU2iazgD/ZOa0HBR1J5jjk+m1RU9eWUAm/9Ps/tQ6L/auvVve8
+ZUINlvf7jOotSocjEI92qAXaHPl1P9+65QIDAQAB
+-----END RSA PUBLIC KEY-----

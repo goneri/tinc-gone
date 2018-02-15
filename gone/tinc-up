@@ -1,0 +1,6 @@
+#!/bin/sh
+local_name=$(sed -n 's,Name=,,p' /etc/tinc/gone/tinc.conf)
+if_ip=$(sed -n 's,Subnet=,,p' /etc/tinc/gone/hosts/${local_name})
+ip address add ${if_ip} dev $INTERFACE
+ip link set $INTERFACE up
+ip route add 192.168.135.0/24 dev $INTERFACE
