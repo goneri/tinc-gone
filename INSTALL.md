@@ -5,8 +5,8 @@
     # cd /etc
     # rm -rf /etc/tinc
     # git clone https://github.com/goneri/tinc-gone tinc
-    # cp ~/rsa_key.priv /etc/tinc/gone/rsa_key.priv
-    # cp tinc.conf /etc/tinc/gone/tinc.conf
+    # cp <SOMEWHERE>/rsa_key.priv /etc/tinc/gone/rsa_key.priv
+    # cp <SOMEWHERE>/tinc.conf /etc/tinc/gone/tinc.conf
 
 # Start up
 
