@@ -28,3 +28,9 @@ git commit -m "Import of ${host}"
 git push
 ssh root@kimsufi.lebouder.net 'cd /etc/tinc; git pull'
 ssh root@home.lebouder.net 'cd /etc/tinc; git pull'
+
+echo now copy gone/tinc.conf gone/rsa_key.priv in the
+echo target /etc/tinc/gone directory
+echo
+echo e.g:
+echo  scp gone/rsa_key.priv gone/tinc.conf root@192.168.1.96:/etc/tinc/gone/
