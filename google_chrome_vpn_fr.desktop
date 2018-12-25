@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Google Chrome VPN FR
+Exec=/etc/tinc/google_chrome_vpn_fr
+Icon=blender
+Terminal=false
+Type=Application
