@@ -17,4 +17,4 @@ You should have an interface called gone with an IP in the 192.168.135.0/24 subn
 
 # Menu entry
 
-    $ cp google-chrome-dans-le-vpn-fr.desktop $HOME/.local/share/applications/google-chrome-dans-le-vpn-fr.desktop
+    $ cp google_chrome_vpn_fr.desktop $HOME/.local/share/applications/
